@@ -6,6 +6,34 @@ Handles the primary functions
 """
 
 
+def mean(my_list):
+    """
+	This function calculates the mean of a list.
+	
+	Parameters
+	----------
+	my_list: list
+		The list of numbers that we want to get the average of.
+
+	Returns
+	-------
+	mean_list: float
+		The mean of the list.
+
+	Example
+	-------
+	>>>mean([1, 2, 3])
+	2.0
+	"""
+
+    
+
+    if not isinstance(my_list, list):
+        raise TypeError("Mean: {} is not a list".format(my_list))
+
+    return sum(my_list) / len(my_list)
+
+
 def canvas(with_attribution=True):
     """
     Placeholder function to show example docstring (NumPy format)

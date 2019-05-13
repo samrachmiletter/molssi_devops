@@ -24,6 +24,10 @@ def title_case(sentence):
     'This Is A String To Be Converted'
     """
 
+    if not isinstance(sentence, str):
+        raise TypeError('Invalid, type %s - Input must be type string' % (type(sentence)))
+
+
     words = sentence.split()
     title = ""
     for word in words:
