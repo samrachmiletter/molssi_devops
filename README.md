@@ -11,6 +11,12 @@ A package containing useful math functions
 
 Copyright (c) 2019, Sam Rachmil-Etter
 
+This repository is currently under development. To do a developmental install, download this repository and type
+
+`pip install -e .`
+
+in the repository directory.
+
 
 #### Acknowledgements
  
